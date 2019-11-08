@@ -1,0 +1,26 @@
+# The services of the project.
+#
+# Each service listed will be deployed
+# to power your Platform.sh project.
+
+db:
+    type: mariadb:10.4
+    disk: 2048
+    configuration:
+        schemas:
+            - drupal
+            - mautic
+        endpoints:
+            drupal:
+                privileges:
+                    drupal: admin
+            mautic:
+                privileges:
+                    mautic: admin
+
+cache:
+    type: redis:5.0
+
+queuerabbit:
+    type: rabbitmq:3.7
+    disk: 256
