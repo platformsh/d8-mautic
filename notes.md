@@ -7,6 +7,7 @@
 * Update relationships to point to new DB endpoints
 * Move queuerabbit to main services.yaml.  Remove mautic/.platform
 * `git init && git add .`.
+* Reduce both app.yaml's to 1 GB of storage so they fit in a default plan.
 
 * Create blank Psh project. (Dev for now, will be Med or higher later.)
 * Use set-remove command from wizard to hook up, then push.
