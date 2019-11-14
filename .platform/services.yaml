@@ -12,9 +12,11 @@ db:
             - mautic
         endpoints:
             drupal:
+                default_schema: drupal
                 privileges:
                     drupal: admin
             mautic:
+                default_schema: mautic
                 privileges:
                     mautic: admin
 
