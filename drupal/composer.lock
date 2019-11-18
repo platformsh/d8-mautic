@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7bedf83f727f1452b2bea305e1b8e0f5",
+    "content-hash": "47d6f4a598ce01ce1e6d2599e687c828",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2603,6 +2603,53 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2019-10-02T18:41:30+00:00"
+        },
+        {
+            "name": "drupal/mautic",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mautic.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mautic-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "86d6b13b3ac5f81a4eb84065b0426b504d13e31d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1518457680",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "jarodriguez",
+                    "homepage": "https://www.drupal.org/user/1551452"
+                }
+            ],
+            "description": "Allows your site to be tracked by Mautic by adding a Javascript tracking code to every page.",
+            "homepage": "https://www.drupal.org/project/mautic",
+            "support": {
+                "source": "https://git.drupalcode.org/project/mautic"
+            }
         },
         {
             "name": "drupal/redis",

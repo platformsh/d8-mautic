@@ -10,8 +10,12 @@
 * Reduce both app.yaml's to 1 GB of storage so they fit in a default plan.
 
 * Create blank Psh project. (Dev for now, will be Med or higher later.)
-* Use set-remove command from wizard to hook up, then push.
+* Use set-remote command from wizard to hook up, then push.
 * Both apps will deploy.
+* Run through installers. Do additional setup for each per their READMEs.
+
+* composer require drupal/mautic to Drupal site.  Commit and push.
+
 
 
 Note to self: Need to modify Mautic .gitignore to not ignore the translations directory.  WTF?  Why is it ignoring a directory you need to even run???
