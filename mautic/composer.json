@@ -103,7 +103,7 @@
     "sendgrid/sendgrid": "~6.0",
     "noxlogic/ratelimit-bundle": "^1.11",
     "sensio/framework-extra-bundle": "~3.0",
-    "twig/twig": "~1.42",
+    "twig/twig": "~2.15",
     "platformsh/config-reader": "^2.3"
   },
   "require-dev": {
